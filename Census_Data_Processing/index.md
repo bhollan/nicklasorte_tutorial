@@ -3,7 +3,7 @@
 The `Census_Data_Processing` project is a MATLAB pipeline designed to handle large-scale **US Census data**. Its main job is to *extract geographic and demographic information* (like population counts and boundaries) from raw Census TIGER/Line shapefiles. The project then performs key analyses, such as **aggregating population data** from smaller areas (e.g., blocks) into larger ones (e.g., tracts) and conducting *geospatial "point-in-polygon" tests* to link population centers to specific zones like urban areas. The entire workflow is managed by orchestration scripts that ensure data is processed, cached for speed, and saved in a structured, state-by-state format.
 
 
-**Source Repository:** [None](None)
+**Source Repository:** [Census_Data_Processing](https://github.com/nicklasorte/Census_Data_Processing)
 
 ```mermaid
 flowchart TD

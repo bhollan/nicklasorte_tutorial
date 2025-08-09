@@ -1,6 +1,6 @@
 # Nicklasorte Tutorial – Repository Overview
 
-This repository contains organized modules for simulation, geospatial analysis, census data processing, and scenario-specific "Bugsplat" workflows.  
+This repository contains organized modules for simulation, geospatial analysis, census data processing, and scenario-specific "Bugsplat" workflows.  The original code being discussed is a [MATLAB repo](https://github.com/nicklasorte/7GHz_plot_DSN_EESS) written by [Nick Lasorte](https://www.linkedin.com/in/nickolas-lasorte-76020538) at the [NTIA](https://www.ntia.gov/).
 It was _entirely_ (well, 'almost') built with an LLM, using this package from [The Pocket](https://github.com/The-Pocket) called [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge). Check the commit history if you're curious, but everything at the `initial commit` was from the bot, the first draft of the README was from ChatGPT, everything after was me cleaning it up.
 Below is a high-level map of the repo with links to each module’s documentation.
 

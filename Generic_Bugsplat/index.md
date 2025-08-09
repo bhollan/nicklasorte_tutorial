@@ -3,7 +3,7 @@
 This project is a simulation tool for analyzing **radio frequency (RF) interference**. It works by first generating a *geographic grid* around specific sites, then calculating signal loss to determine potential interference areas. These areas are delineated as **coordination zones**, which are essentially 'keep-out' zones. The system quantifies the real-world impact by analyzing how these zones affect *population and economic areas*, and finally generates visual reports like maps and data tables.
 
 
-**Source Repository:** [None](None)
+**Source Repository:** [Generic_Bugsplat](https://github.com/nicklasorte/Generic_Bugsplat)
 
 ```mermaid
 flowchart TD

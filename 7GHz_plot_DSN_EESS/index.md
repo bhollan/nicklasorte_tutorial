@@ -5,7 +5,7 @@ It works like a mission control dashboard: a main script acts as a **controller*
 This controller then launches a powerful **core analysis function** that calculates and plots interference zones, known as "bugsplats," for different satellite communication systems. The project is built with reusable *modular function libraries* and uses **data caching** to speed up repeated analyses.
 
 
-**Source Repository:** [None](None)
+**Source Repository:** [7GHz_plot_DSN_EESS](https://github.com/nicklasorte/7GHz_plot_DSN_EESS)
 
 ```mermaid
 flowchart TD
