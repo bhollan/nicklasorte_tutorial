@@ -18,30 +18,8 @@ This process identifies all the individual points on a map grid where interferen
 
 The simplest way to enclose a set of points is to imagine stretching a giant rubber band around the outermost points. This is called a **convex hull**. It's a quick and easy way to get a general outline of the interference area.
 
-```mermaid
-graph TD
-    subgraph Convex Hull
-        A[Point]
-        B[Point]
-        C[Point]
-        D[Point]
-        E[Point]
-        F[Point]
-        A---B---D---E---A
-    end
+![Convex-Hull](https://github.com/user-attachments/assets/d5e512cf-7557-4f75-b7bf-07377c46087b)
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#f9f,stroke:#333,stroke-width:2px
-    style E fill:#f9f,stroke:#333,stroke-width:2px
-    style F fill:#f9f,stroke:#333,stroke-width:2px
-
-    linkStyle 0,1,2,3,4 stroke-width:3px,stroke:green,stroke-dasharray: 5 5;
-
-    classDef default fill:#fff,stroke:#fff
-```
-*The green dashed line represents the convex hull, like a rubber band stretched around all the points.*
 
 #### 2. The Radial Boundary: The "Tracing" Method
 
